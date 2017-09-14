@@ -1,4 +1,17 @@
-body {
 
-	background: lightgray;
+
+body {
+	background:  black;
+	background-repeat: no-repeat;
+
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+#buttons {
+
+	position: center;
 }

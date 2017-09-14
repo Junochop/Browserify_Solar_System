@@ -2,11 +2,26 @@
 <html>
 <head>
 	<title>Browserify Project</title>
-	<link rel="stylesheet" type="text/css" href="./main.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
-<body>
+<body class="bgImage" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Planets2013.svg/1280px-Planets2013.svg.png)">
+
+<div id="buttons">
+  <h1>Discover Our Solar System</h1> 
+	
+	<button id="mercury">Mercury</button>	
+	<button id="venus">Venus</button>	
+	<button id="earth">Earth</button>	
+	<button id="mars">Mars</button>
+	<button id="jupiter">Jupiter</button>	
+	<button id="saturn">Saturn</button>
+	<button id="uranus">Uranus</button>	
+	<button id="neptune">Neptune</button>
+</div>
+
+<div id='output'></div>
 
 
-<script type="text/javascript" src="./main.js"></script>
+<script type="text/javascript" src="dist/app.js"></script>
 </body>
 </html>
